@@ -1,0 +1,18 @@
+= K3 — Kona
+
+- Language: K3
+- Environment: Kona (https://kona.github.io) — commit ac4e4c5
+
+== How to run
+
+1. Install Kona as `kona`.
+2. Run the following shell script:
+
+[source, sh]
+----
+echo -ne 30 | kona -e '\l fizzbuzz' | xxd
+----
+
+== History
+
+- 2026-02-27: Implemented `fizzbuzz.k` for fizz buzz in general fizz buzz way.
