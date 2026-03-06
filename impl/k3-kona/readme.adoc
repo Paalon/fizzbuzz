@@ -16,3 +16,4 @@ echo -ne 30 | kona -e '\l fizzbuzz' | xxd
 == History
 
 - 2026-02-27: Implemented `fizzbuzz.k` for fizz buzz in general fizz buzz way.
+- 2026-03-07: Implemented `fizzbuzz-over.k` using the adverb `/` over monad instead of `while` for looping.
