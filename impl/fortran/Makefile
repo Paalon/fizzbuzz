@@ -5,7 +5,11 @@ COMPILER = gfortran
 $(NAME): $(NAME).f90
 	$(COMPILER) $(FLAGS) -o $(NAME) $(NAME).f90
 
-.PHONY: clean
+.PHONY: clean, run
+.SILENT: run
 
 clean:
 	rm $(NAME)
+
+run: $(NAME)
+	./$(NAME)
