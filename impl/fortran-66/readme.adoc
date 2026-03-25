@@ -1,0 +1,10 @@
+= FORTRAN 66
+
+== Remark
+
+* FORTRAN 66 <<fortran-66>> doesn’t have lowercase Latin alphabet but this code use it.
+
+[bibliography]
+== References
+
+* [[[fortran-66,1]]] United States of America Standards Institute, “USA Standard FORTRAN, USAS X3.9-1966” (informally called FORTRAN 66), Approved 1966-03-07.
