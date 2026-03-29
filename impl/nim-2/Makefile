@@ -5,7 +5,8 @@ FLAGS = -d:release
 $(TARGET): $(SOURCE)
 	nim c $(FLAGS) $(SOURCE)
 
-.PHONY: clean
+.PHONY: clean run
+.SILENT: run
 
 clean:
 	rm fizzbuzz
