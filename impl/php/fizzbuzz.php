@@ -15,10 +15,18 @@ function word(int $n) {
     }
 }
 
+function say(int $n) {
+    echo word($n), "\n";
+}
+
 function play(int $n) {
     for ($i = 1; $i <= $n; $i++) {
-        echo word($i), "\n";
+        say($i);
     }
 }
 
-play(intval(stream_get_contents(STDIN)));
+function read() {
+    return intval(stream_get_contents(STDIN));
+}
+
+play(read());
